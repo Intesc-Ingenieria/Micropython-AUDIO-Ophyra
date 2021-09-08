@@ -13,6 +13,6 @@ audio_I2S.py es el código donde se realiza toda la recolección y procesamiento
 
 Por último, playWAVToDAC.py es un programa demo que permite reproducir un archivo WAV presente en la memoria de la tarjeta a través del DAC para garantizar el funcionamiento del amplificador de audio. 
 
-#Reporte
+# Reporte
 El reporte presentado en este repositorio muestra a detalle el proceso de modificación de archivos desde la compilación, hasta un desglose del algoritmo pensado para el procesamiento de datos.
 
