@@ -3,7 +3,7 @@ from pyb import DAC
 dac = DAC(1, bits=8) #Inicialización del DAC_1 en modo de 8 bits
 
 #-------------CONFIGURACIÓN DE AUDIO---------------
-WAV_FILE = "harmony.wav" #Archivo .WAV a reproducir
+WAV_FILE = "audio.wav" #Archivo .WAV a reproducir
 WAV_SAMPLE_SIZE_IN_BITS = 8
 
 SAMPLE_RATE_IN_HZ = 8000 #Tasa de muestreo de 8KHz
