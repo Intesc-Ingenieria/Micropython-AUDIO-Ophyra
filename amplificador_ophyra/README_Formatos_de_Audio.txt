@@ -5,7 +5,7 @@ IMPORTANTE que los archivos tengan 8 bits de resolución y esten en formato mono
 la frecuencia de muestreo puede cambiar, pero se recomienda dejarla en 8 KHz o 16 KHz.
 
 ----------------------------------------
-|          ARCHIVOS DE AUDIO           |
+|        ARCHIVOS DE AUDIO WAV         |
 | - test1 ---> (8 bits, 8 KHz, mono)   |
 | - test2 ---> (8 bits, 16 KHz, mono)  |
 ----------------------------------------
