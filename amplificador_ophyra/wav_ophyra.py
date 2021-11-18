@@ -3,7 +3,6 @@
 
 - WAV_FILE ---> Nombre del archivo .wav
 - seg --------> Tiempo en segundos para reproducir el audio
-
 """
 
 from pyb import DAC
@@ -39,5 +38,6 @@ def play(WAV_FILE, seg):
         print("Reproduciendo... " + str(i) +" seg")
         lon = lon + SAMPLE_RATE_IN_HZ  #Se mueve el cursor para leer el siguiente segundo del archivo .WAV
         delay(1000)  #Espera 1 seg, tiempo para reproducir el sonido en el amplificador
+        
     print("--------- FIN DE AUDIO ---------")
     dac.deinit()  #Se desactiva el DAC
