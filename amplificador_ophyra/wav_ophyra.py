@@ -16,7 +16,7 @@ def play(WAV_FILE, seg):
 
     print("-------- INICIO DE AUDIO --------")
     lon = 44  #Se ignora el encabezado del .WAV
-    for i in range(seg+1):
+    for i in range(seg):
         wav = open(WAV_FILE, "rb") #Apertura del archivo de audio 
         pos = wav.seek(lon)
 
