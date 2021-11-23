@@ -34,9 +34,9 @@ def play(WAV_FILE, seg):
         except (KeyboardInterrupt, Exception) as e:
             print("caught exception {} {}".format(type(e).name, e))
 
-        wav.close() #Se cierra el archivo de audio
         print("Reproduciendo... " + str(i) +" seg")
         lon = lon + SAMPLE_RATE_IN_HZ  #Se mueve el cursor para leer el siguiente segundo del archivo .WAV
+        wav.close() #Se cierra el archivo de audio
         delay(1000)  #Espera 1 seg, tiempo para reproducir el sonido en el amplificador
         
     print("--------- FIN DE AUDIO ---------")
