@@ -1,10 +1,10 @@
 from wav_ophyra import wav 
 
-#-------------CONFIGURACIÓN DE AUDIO---------------
 print("   ---------------------------------")
 print("   | REPRODUCTOR DE AUDIO - OPHYRA |")
 print("   ---------------------------------")
 
+#-------------CONFIGURACIÓN DE AUDIO---------------
 WAV_FILE = "test2.wav"  #Archivo .WAV a reproducir
 seg = 120                 #Segundos que tendra la reproducción del archivo .WAV
 canal = 1                #Inicialización del DAC (DAC1 o DAC2)
