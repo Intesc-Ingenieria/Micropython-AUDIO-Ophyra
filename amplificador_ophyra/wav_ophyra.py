@@ -10,14 +10,14 @@ from pyb import delay
 
 class wav:
 
-    def play(WAV_FILE, seg, canal, muestreo):
+    def play(archivo, seg, canal, muestreo):
         #-------------CONFIGURACIÓN DE AUDIO---------------
         dac = DAC(canal, bits=8)        #Inicialización del DAC en modo de 8 bits / 8 bits de resolución.
 
         #------- Inicio de reproducción -------
         ini = 44  #Se ignora el encabezado del .WAV
         for i in range(seg+1):
-            wav = open(WAV_FILE, "rb") #Apertura del archivo de audio 
+            wav = open(archivo, "rb") #Apertura del archivo de audio 
             pos = wav.seek(ini)
 
             #---- Declaración de buffers de datos ----
