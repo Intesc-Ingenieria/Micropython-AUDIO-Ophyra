@@ -1,11 +1,17 @@
-import wav_ophyra  #Importamos la libreria del reproductor WAV
+from wav_ophyra import wav 
 
 #-------------CONFIGURACIÓN DE AUDIO---------------
-WAV_FILE = "test1.wav"        #Archivo .WAV a reproducir
-seg = 120                    #Segundos que tendra la reproducción del archivo .WAV
+print("   ---------------------------------")
+print("   | REPRODUCTOR DE AUDIO - OPHYRA |")
+print("   ---------------------------------")
+
+WAV_FILE = "test2.wav"  #Archivo .WAV a reproducir
+seg = 120                 #Segundos que tendra la reproducción del archivo .WAV
+canal = 1                #Inicialización del DAC (DAC1 o DAC2)
+muestreo = 16000          #Tasa de muestreo en Hz (recomendado a 8 KHz o 16 KHz)
 
 #Agregamos un bucle while para ciclar la reproducción del audio
-n = 0
-while n < 1:
-    wav_ophyra.play(WAV_FILE,seg)
-
+while 1:
+    print("\n -------- INICIO DE AUDIO --------")
+    wav.play(WAV_FILE,seg,canal,muestreo)
+    print("--------- FIN DE AUDIO ---------")
