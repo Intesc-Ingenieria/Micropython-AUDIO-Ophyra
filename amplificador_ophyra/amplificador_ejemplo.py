@@ -5,7 +5,7 @@ print("   | REPRODUCTOR DE AUDIO - OPHYRA |")
 print("   ---------------------------------")
 
 #-------------CONFIGURACIÓN DE AUDIO---------------
-WAV_FILE = "test2.wav"  #Archivo .WAV a reproducir
+archivo = "test2.wav"  #Archivo .WAV a reproducir
 seg = 120                 #Segundos que tendra la reproducción del archivo .WAV
 canal = 1                #Inicialización del DAC (DAC1 o DAC2)
 muestreo = 16000          #Tasa de muestreo en Hz (recomendado a 8 KHz o 16 KHz)
