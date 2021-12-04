@@ -13,5 +13,5 @@ muestreo = 16000          #Tasa de muestreo en Hz (recomendado a 8 KHz o 16 KHz)
 #Agregamos un bucle while para ciclar la reproducción del audio
 while 1:
     print("\n -------- INICIO DE AUDIO --------")
-    wav.play(WAV_FILE,seg,canal,muestreo)
+    wav.play(archivo,seg,canal,muestreo)
     print("--------- FIN DE AUDIO ---------")
