@@ -66,7 +66,7 @@ ncoeffs = len(coeffs)
 data = array.array('i', [0]*(ncoeffs +3)) # Scratchpad must be three larger than coeffs
 data[0] = ncoeffs
 data[1] = 16
-filteredValueBuff = bytearray(10000)
+filteredValueBuff = bytearray(40000)
 # ============================================================================================ #
 
 k = 0
