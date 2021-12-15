@@ -1,5 +1,6 @@
 # main.py -- put your code here!
-
+# Date: 14 December 2021 
+# Written by: Dionicio Meza Solano.
 
 from ophyra_mp45dt02 import MP45DT02    #SE IMPORTA LA LIBRERIA DEL MICROFONO 
 import time
