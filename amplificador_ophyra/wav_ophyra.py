@@ -1,4 +1,8 @@
 """
+INTESC Electrónica y Embebidos
+Fecha: 17 / Diciembre / 2021
+Autor: Javier Martínez
+
 ----- REPRODUCTOR DE AUDIO WAV -----
 
 - WAV_FILE ---> Nombre del archivo .wav
